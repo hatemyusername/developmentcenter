@@ -1,0 +1,51 @@
+* {
+  border: 1px solid black;
+  /* box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; */
+}
+html {
+  min-width: 900px;
+}
+body {
+  margin: 0;
+}
+header {
+  height: 100px;
+  display: flex;
+}
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.main-aside {
+  display: flex;
+  justify-content: center;
+}
+main {
+  min-height: 530px;
+  flex: 5;
+  margin: 20px 0px 20px 20px;
+}
+aside {
+  min-height: 530px;
+  margin: 20px 20px 20px 20px;
+  flex: 1;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.daoHanglan {
+  display: flex;
+}
+.daoHang {
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+}
