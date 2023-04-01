@@ -1,0 +1,165 @@
+/* * {
+  border: 1px solid black;
+} */
+body {
+  margin: 0;
+  min-width: 950px;
+}
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 35px;
+}
+nav {
+  height: 33px;
+  display: flex;
+  justify-content: center;
+}
+.daoHang {
+  width: 200px;
+  text-align: center;
+  line-height: 33px;
+}
+footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+/* 左侧 */
+.gongGao {
+  width: 700px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gongGao-h2 {
+  height: 40px;
+  width: 650px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.gongGao-img {
+  height: 300px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gG-img {
+  height: 280px;
+  width: 560px;
+}
+.gongGao-p {
+  height: 226px;
+  width: 622px;
+  margin: 10px;
+  padding: 10px 10px 10px 20px;
+  line-height: 26px;
+}
+/* 右侧 */
+.tuiSong-fenQu {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+}
+.tuiSong {
+  height: 230px;
+  width: 400px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tuiSong-h2 {
+  height: 40px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.tuisong-function {
+  height: 140px;
+  width: 350px;
+}
+.fenQu {
+  height: 414px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fenQu-h2 {
+  height: 40px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.fenQu-div {
+  height: 40px;
+  width: 220px;
+  margin: 8px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+/* 颜 */
+/* 色 */
+footer,
+nav {
+  background-color: #e3dbc7;
+}
+.gongGao,
+.tuiSong,
+.fenQu,
+header {
+  background-color: #f6f3eb;
+}
+.gongGao,
+.gongGao-h2,
+.gongGao-img,
+.gongGao-p,
+.tuiSong,
+.tuiSong-h2,
+.tuisong-function,
+.fenQu,
+.fenQu-h2,
+.fenQu-div {
+  border: 4px solid #e3dbc7;
+}
+header {
+  border-left: ;
+}
+h1,
+h2,
+.gongGao-p {
+  color: #4f4c47;
+}
+h1 {
+  font-size: 28px;
+}
+.fenQu-div {
+  border-left: 25px solid #e3dbc7;
+}
