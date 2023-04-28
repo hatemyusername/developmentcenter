@@ -1,0 +1,216 @@
+/* * {
+  border: 1px solid black;
+} */
+body {
+  margin: 0;
+  min-width: 1150px;
+}
+header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.daoHang {
+  width: 200px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  margin: 0px;
+}
+footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+/* 左侧 */
+.gongGao {
+  width: 700px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gongGao-h2 {
+  height: 40px;
+  width: 650px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.gongGao-img {
+  height: 300px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gG-img {
+  height: 280px;
+  width: 560px;
+}
+.gongGao-p {
+  height: 226px;
+  width: 622px;
+  margin: 10px;
+  padding: 10px 10px 10px 20px;
+  line-height: 26px;
+}
+/* 右侧 */
+.tuiSong-fenQu {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  height: 70px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.time-h2 {
+  height: 40px;
+  width: 120px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.time-p {
+  height: 40px;
+  width: 210px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.tuiSong {
+  height: 240px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tuiSong-h2 {
+  height: 40px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.tuisong-function {
+  height: 140px;
+  width: 350px;
+}
+.fenQu {
+  height: 314px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fenQu-h2 {
+  height: 40px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.fenQu-p {
+  height: 40px;
+  width: 250px;
+  margin: 6px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+/* 颜 */
+/* 色 */
+footer,
+nav,
+header {
+  background-color: #e0d8c4;
+}
+.gongGao,
+.time,
+.tuiSong,
+.fenQu {
+  background-color: #f2f0eb;
+}
+.gongGao,
+.gongGao-h2,
+.gongGao-img,
+.gongGao-p,
+.time,
+.time-h2,
+.time-p,
+.tuiSong,
+.tuiSong-h2,
+.tuisong-function,
+.fenQu,
+.fenQu-h2,
+.fenQu-p {
+  border: 4px solid #e0d8c4;
+}
+.fenQu,
+.tuiSong {
+  border-radius: 4%;
+}
+.time {
+  border-radius: 6%;
+}
+.gongGao {
+  border-radius: 2%;
+}
+nav {
+  border-top: 5px solid #f2f0eb;
+}
+.daoHang {
+  background-color: #f2f0eb;
+  border: 3px solid #e0d8c4;
+}
+h1 {
+  font-size: 30px;
+}
+h1,
+h2,
+p {
+  color: #44413b;
+}
+.fenQu-p {
+  border-left: 25px solid #e0d8c4;
+  background-image: url("../images/test.jpg");
+  background-size: 220px 80px;
+  font-size: 28px;
+}
+a {
+  color: #56534b;
+}
+.fenQu-p {
+  color: #d4c9a8;
+}
+/* 配合js用的效果 */
+.over {
+  background-color: #c6bca4;
+}
